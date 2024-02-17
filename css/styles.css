@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", "sans-serif";
   color: #2e2f42;
+  background-color: #ffffff;
 }
 
 .hero {
@@ -18,25 +19,29 @@ body {
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", "sans-serif";
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.313rem;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  color: #4d5ae5;
+}
+
+header span {
   color: #2e2f42;
 }
 
-span {
-  color: #4d5ae5;
+footer span {
+  color: #f4f4fd;
 }
 
 ul {
   list-style: none;
 }
 
-nav a {
+.link {
   text-decoration: none;
   color: #2e2f42;
   font-weight: 500;
@@ -44,53 +49,77 @@ nav a {
   letter-spacing: 0.02em;
 }
 
-address a {
-  text-decoration: none;
-  color: #434455;
-  line-height: 1.5rem;
-  letter-spacing: 0.02em;
+.link:hover {
+  color: #404bbf;
 }
 
-h1 {
+.link:active {
+  color: #404bbf;
+}
+
+address .link {
+  color: #434455;
+  font-weight: 400;
+}
+
+.address {
+  font-style: normal;
+}
+
+.hero-h1 {
   font-size: 56px;
   font-weight: 700;
-  line-height: 3.75rem;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 
-button {
-  padding: 16px 32px 16px 32px;
-  border-radius: 4px;
-  gap: 10px;
+.btn {
+  font-family: "Roboto", "sans-serif";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #ffffff;
+  cursor: pointer;
 }
 
-h3 {
+.btn:hover {
+  background-color: #404bbf;
+}
+
+.btn:active {
+  background-color: #404bbf;
+}
+
+.section-subheader {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5rem;
   letter-spacing: 0.02em;
 }
 
-p {
+.article {
   line-height: 1.5rem;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-h2 {
+.section-header {
   font-size: 36px;
   font-weight: 700;
-  line-height: 2.5rem;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 
-footer .logo {
+footer .article {
   color: #f4f4fd;
 }
 
-footer p {
-  color: #f4f4fd;
+.card {
+  background-color: #ffffff;
 }
