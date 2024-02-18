@@ -107,6 +107,7 @@ address .link {
   font-size: 20px;
   line-height: 1.5rem;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .article {
@@ -122,6 +123,7 @@ address .link {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 footer .article {
